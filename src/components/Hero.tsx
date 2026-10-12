@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({
                 className="relative aspect-video sm:aspect-[4/3] lg:aspect-video w-full overflow-hidden cursor-pointer"
               >
                 <img
-                  src="/src/assets/images/reels/reel_beach_rocks.jpg"
+                  src="/images/reels/kerala.png"
                   alt="Coastal Horizon video editing still frame preview"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
