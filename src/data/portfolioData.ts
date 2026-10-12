@@ -1,4 +1,4 @@
-export interface Project {
+﻿export interface Project {
   id: string;
   title: string;
   category: 'Reels & Shorts' | 'Montages' | 'Creative Edits';
@@ -71,7 +71,7 @@ export const PROFILE_DATA: ProfileData = {
   name: "Pragada Harika Sravani",
   title: "Video Editor & Visual Storyteller",
   tagline: "Every frame tells a story.",
-  location: "Jeedimetla, Hyderabad, Telangana – 500055",
+  location: "Jeedimetla, Hyderabad, Telangana â€“ 500055",
   email: "harikasravanip@gmail.com",
   phone: "8340850805",
   whatsappNumber: "918340850805",
@@ -105,14 +105,14 @@ export const PROFILE_DATA: ProfileData = {
     {
       degree: "B.Tech in Computer Science & Engineering",
       institution: "Bhoj Reddy Engineering College for Women",
-      period: "2024 – 2026",
+      period: "2024 â€“ 2026",
       score: "CGPA: 7.8",
       type: "Undergraduate Degree"
     },
     {
       degree: "Intermediate (MPC)",
       institution: "Narayana Junior College",
-      period: "2020 – 2022",
+      period: "2020 â€“ 2022",
       score: "Percentage: 94%",
       type: "Senior Secondary"
     },
@@ -140,7 +140,7 @@ export const PROJECTS: Project[] = [
     driveUrl: "https://drive.google.com/file/d/1wlBR5kIY49YhjvhHQA_6Xyc23reMlaBt/view?usp=sharing",
     driveFileId: "1wlBR5kIY49YhjvhHQA_6Xyc23reMlaBt",
     embedUrl: "https://drive.google.com/file/d/1wlBR5kIY49YhjvhHQA_6Xyc23reMlaBt/preview",
-    thumbnail: "/src/assets/images/reels/reel_jijnasa_desk.jpg",
+    thumbnail: "/images/reels/reel_jijnasa_desk.jpg",
     duration: "0:16",
     aspectRatio: "9:16",
     tools: ["CapCut", "VN"],
@@ -152,13 +152,13 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "reel-coastal",
-    title: "Coastal Horizon — Cinematic Beach Melody Reel",
+    title: "Coastal Horizon â€” Cinematic Beach Melody Reel",
     category: "Reels & Shorts",
     description: "Atmospheric slow-motion beach sequence set to Telugu melody song. Features smooth match cuts, waves crashing on coastal rocks, wind-blown motion, and color grading tuned for dreamy shoreline lighting.",
     driveUrl: "https://drive.google.com/file/d/1wXY4n1m_v9ivsRqDKC3OVwsQdFK87zEN/view?usp=drivesdk",
     driveFileId: "1wXY4n1m_v9ivsRqDKC3OVwsQdFK87zEN",
     embedUrl: "https://drive.google.com/file/d/1wXY4n1m_v9ivsRqDKC3OVwsQdFK87zEN/preview",
-    thumbnail: "/src/assets/images/reels/reel_beach_rocks.jpg",
+    thumbnail: "/images/reels/reel_beach_rocks.jpg",
     duration: "0:35",
     aspectRatio: "9:16",
     tools: ["CapCut", "VN"],
@@ -170,7 +170,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "reel-csea-girls",
-    title: "Introducing Our Girls — BRECW CSEA Association Reel",
+    title: "Introducing Our Girls â€” BRECW CSEA Association Reel",
     category: "Reels & Shorts",
     description: "High-energy comic book style introduction reel for the Bhoj Reddy Engineering College for Women Computer Science Association (CSEA). Features 3D text animations, fire VFX, and synchronized beat drops.",
     
@@ -178,7 +178,7 @@ driveUrl: "https://drive.google.com/file/d/1xWTaMGJhADiYAVC3s1_nzCL4VOqAMFqp/vie
 driveFileId: "1xWTaMGJhADiYAVC3s1_nzCL4VOqAMFqp",
 embedUrl: "https://drive.google.com/file/d/1xWTaMGJhADiYAVC3s1_nzCL4VOqAMFqp/preview",
 
-    thumbnail: "/src/assets/images/reels/banner1.png",
+    thumbnail: "/images/reels/banner1.png",
     duration: "0:41",
     aspectRatio: "9:16",
     tools: ["CapCut", "VN"],
@@ -190,7 +190,7 @@ embedUrl: "https://drive.google.com/file/d/1xWTaMGJhADiYAVC3s1_nzCL4VOqAMFqp/pre
   },
   {
     id: "reel-sports-athletics",
-    title: "Sivangive — Bhoj Reddy Sports Day & Athletics Reel",
+    title: "Sivangive â€” Bhoj Reddy Sports Day & Athletics Reel",
     category: "Reels & Shorts",
     description: "Fast-paced, adrenaline-filled college sports montage capturing Kho-Kho matches, basketball free throws, track sprints, and victory moments with speed-ramped action cuts set to Telugu motivational anthem 'Sivangive'.",
  
@@ -198,7 +198,7 @@ driveUrl: "https://drive.google.com/file/d/1N5XzL6A9a1vk8AUbLwOFb5e7lTWuSUOA/vie
 driveFileId: "1N5XzL6A9a1vk8AUbLwOFb5e7lTWuSUOA",
 embedUrl: "https://drive.google.com/file/d/1N5XzL6A9a1vk8AUbLwOFb5e7lTWuSUOA/preview",
 
-   thumbnail:  "/src/assets/images/reels/singam.png",
+   thumbnail:  "/images/reels/singam.png",
     duration: "0:45",
     aspectRatio: "9:16",
     tools: ["CapCut", "Premiere Pro"],
@@ -210,13 +210,13 @@ embedUrl: "https://drive.google.com/file/d/1N5XzL6A9a1vk8AUbLwOFb5e7lTWuSUOA/pre
   },
   {
     id: "reel-cover-song",
-    title: "Acoustic Melody — Cover Song Cinematic Reel",
+    title: "Acoustic Melody â€” Cover Song Cinematic Reel",
     category: "Reels & Shorts",
     description: "Moody music video cover edit balancing singer performance shots with visual cutaways, velocity curves, and sound-driven pacing aligned to acoustic guitar and vocals.",
     driveUrl: "https://drive.google.com/file/d/1JyFdnbCzAyXI1mYHLYoMvnB7rQMWKZ3J/view?usp=drivesdk",
     driveFileId: "1JyFdnbCzAyXI1mYHLYoMvnB7rQMWKZ3J",
     embedUrl: "https://drive.google.com/file/d/1JyFdnbCzAyXI1mYHLYoMvnB7rQMWKZ3J/preview",
-    thumbnail: "/src/assets/images/reels/project_coversong_frame.jpg",
+    thumbnail: "/images/reels/project_coversong_frame.jpg",
     duration: "1:10",
     aspectRatio: "9:16",
     tools: ["Premiere Pro", "CapCut"],
@@ -228,7 +228,7 @@ embedUrl: "https://drive.google.com/file/d/1N5XzL6A9a1vk8AUbLwOFb5e7lTWuSUOA/pre
   },
   {
     id: "reel-golden-hour",
-    title: "Golden Hour Glow — Rooftop Melody Reel",
+    title: "Golden Hour Glow â€” Rooftop Melody Reel",
     category: "Reels & Shorts",
     description: "Warm portrait reel set to Tamil romantic hit 'Thangamana Payyan'. Features radiant smile timing, red rose prop framing, natural sun flare highlights, and beat-matched cuts on a Hyderabad rooftop terrace.",
  
@@ -248,13 +248,13 @@ embedUrl: "https://drive.google.com/file/d/1RhLb9rRf4YORYnjfEFJV0ou_ggVh83Cm/pre
   },
   {
     id: "project-college-film",
-    title: "Campus Chronicle — Bhoj Reddy College Event Film",
+    title: "Campus Chronicle â€” Bhoj Reddy College Event Film",
     category: "Montages",
     description: "Comprehensive 3-minute multi-cam college documentary and event highlight montage capturing campus speeches, stage performances, student crowds, and auditorium ceremonies.",
     driveUrl: "https://drive.google.com/file/d/1N7VSfZWU4ACacaPxuPr5Q1_Pcj2YUFu5/view?usp=drivesdk",
     driveFileId: "1N7VSfZWU4ACacaPxuPr5Q1_Pcj2YUFu5",
     embedUrl: "https://drive.google.com/file/d/1N7VSfZWU4ACacaPxuPr5Q1_Pcj2YUFu5/preview",
-    thumbnail: "/src/assets/images/reels/project_college_event.jpg",
+    thumbnail: "/images/reels/project_college_event.jpg",
     duration: "3:44",
     aspectRatio: "16:9",
     tools: ["Premiere Pro", "DaVinci Resolve"],
@@ -265,13 +265,13 @@ embedUrl: "https://drive.google.com/file/d/1RhLb9rRf4YORYnjfEFJV0ou_ggVh83Cm/pre
   },
   {
     id: "project-motion-velocity",
-    title: "Rhythm & Kinetic Cut — CapCut Velocity Edit",
+    title: "Rhythm & Kinetic Cut â€” CapCut Velocity Edit",
     category: "Creative Edits",
     description: "Creative visual treatment experimenting with keyframes, mask transitions, clap-and-pull cuts, and high-energy optical flow pacing.",
     driveUrl: "https://drive.google.com/file/d/16YdiyoqtrdYujvqO_B21JNcJ7OJkKRIT/view?usp=drivesdk",
     driveFileId: "16YdiyoqtrdYujvqO_B21JNcJ7OJkKRIT",
     embedUrl: "https://drive.google.com/file/d/16YdiyoqtrdYujvqO_B21JNcJ7OJkKRIT/preview",
-    thumbnail: "/src/assets/images/reels/project_motion_rhythm.jpg",
+    thumbnail: "/images/reels/project_motion_rhythm.jpg",
     duration: "0:40",
     aspectRatio: "16:9",
     tools: ["CapCut", "After Effects Basics"],
@@ -287,7 +287,7 @@ export const SERVICES: Service[] = [
     id: "reels-shorts",
     title: "Instagram Reels & YouTube Shorts",
     tagline: "Short-form edits engineered for retention and replay value.",
-    description: "Transform raw mobile or camera footage into hook-driven 15–60 second vertical videos. Focused on holding attention through calculated pacing, punchy typography, and beat-matched cuts.",
+    description: "Transform raw mobile or camera footage into hook-driven 15â€“60 second vertical videos. Focused on holding attention through calculated pacing, punchy typography, and beat-matched cuts.",
     deliverables: [
       "Fast 3-second hook construction",
       "Dynamic auto-captions and styled subtitles",
@@ -379,3 +379,4 @@ export const PROCESS_STEPS: ProcessStep[] = [
     ]
   }
 ];
+
